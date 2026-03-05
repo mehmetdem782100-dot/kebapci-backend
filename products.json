@@ -1,0 +1,6 @@
+[
+  {"code":"P001","title":"Adana Kebap","description":"Acılı dana kebap, özel şişte.","price":149,"stock":30},
+  {"code":"P002","title":"Urfa Kebap","description":"Baharatlı Urfa usulü.","price":139,"stock":25},
+  {"code":"P003","title":"Lahmacun 6'lı","description":"İnce hamur, taze kıyma.","price":99,"stock":50},
+  {"code":"P004","title":"Ayran","description":"Ev yapımı ayran 250ml.","price":12,"stock":200}
+]
