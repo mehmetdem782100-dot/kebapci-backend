@@ -18,9 +18,12 @@ if not os.path.exists(ORDERS_FILE):
         json.dump([], f)
 
 # Ana sayfa (müşteri)
-@app.route('/')
-def index():
-    return render_template('index.html')
+@app.route('/admin')
+def admin():
+    token = request.args.get('token', '')
+    if token != os.environ.get('ADMIN_TOKEN', 'Helin7878+'):
+        return "Unauthorized", 401
+    return render_template('admin.html')
 
 # Admin panel
 @app.route('/admin')
